@@ -1,0 +1,60 @@
+body{
+	margin: 0 auto;
+	width: 800px;
+	font-family: calibri;
+	background-color: cornsilk;
+}
+
+h1, .last_t{
+	text-align: center;
+}
+
+/*menu*/
+.menu{
+	margin: 60px 0 40px;
+}
+.menu nav{
+	display: flex;
+	justify-content: space-around;
+}
+.menu nav li{
+	list-style: none;
+}
+.menu nav li a{
+	color: black;
+	text-decoration: none;
+}
+.menu nav li a:hover{
+	text-decoration: underline;
+}
+
+/*topics*/
+.last_t{
+	background-color: orangered;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+.subjects{
+	border-bottom: 1px solid orangered;
+}
+.post_by{
+	text-align: right;
+}
+.post{
+	color: orangered;
+}
+.description{
+	text-align: justify;
+}
+.date_c{
+	text-align: right;
+}
+
+/*formulaires*/
+.form input{
+	margin-bottom: 20px;
+}
+.form textarea{
+	width: 100%;
+}
